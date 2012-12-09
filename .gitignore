@@ -1,4 +1,5 @@
 *.pyc
+addon.pyc
 .gitignore
 misc/
 releases/tmp

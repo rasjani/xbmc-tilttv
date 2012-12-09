@@ -2,15 +2,20 @@
 <addon id="plugin.video.tilt.tv" name="Tilt.TV" version="0.1" provider-name="Jani Mikkonen">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
-    <import addon="script.module.xbmcswift2" version="1.1.1"/>
+    <import addon="script.module.xbmcswift2" version="1.2.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <language></language>
-    <summary>Summary for Tilt.TV</summary>
-    <description>Description for Tilt.TV</description>
+    <language>fi</language>
+    <summary>Finnish Gaming TV Show Tilt.TV</summary>
+    <description>Finnish Gaming TV Show Tilt.TV</description>
+    <summary lang="fi">Suomalainen peliohjelma Tilt.TV</summary>
+    <description lang="fi">Suomalainen peliohjelma Tilt.TV</description>
+    <summary lang="en">Finnish Gaming TV Show Tilt.TV</summary>
+    <description lang="en">Finnish Gaming TV Show Tilt.TV</description>
   </extension>
 </addon>
